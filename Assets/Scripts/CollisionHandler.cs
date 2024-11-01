@@ -38,7 +38,7 @@ public class CollisionHandler : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.C))
         {
-            collisionDisabled = !collisionDisabled;     // togle collison
+            collisionDisabled = !collisionDisabled;     // toggle collision
         }
     }
 
@@ -96,5 +96,4 @@ public class CollisionHandler : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
     }
-
 }
